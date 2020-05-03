@@ -6,9 +6,6 @@ target 'gofeedback' do
   use_frameworks!
   
   # Pods for gofeedback
-  pod 'SideMenu'
-  pod 'RxSwift'
-  pod 'RxCocoa'
   pod 'Firebase', '>= 2.5.0'
   pod 'FirebaseStorage'
   pod 'FirebaseAuth'
@@ -22,8 +19,7 @@ target 'gofeedback' do
   pod 'ObjectMapper', '~> 3.5'
   pod 'CDYelpFusionKit'
   pod 'YPImagePicker'
-  pod 'UBottomSheet'
-
+  
   # add pods for desired Firebase products
   # https://firebase.google.com/docs/ios/setup#available-pods
   
